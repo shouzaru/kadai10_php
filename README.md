@@ -8,9 +8,19 @@
 - Loginしていない人は単に情報を見るだけ。
 
 ## 構成
-- index01.php
--- 全体の画面
-- 
+- index01.php　-- メイン画面
+- dbc.php -- SQLの接続など、関数を定義。
+- post.php -- 新規投稿画面
+- confirm.php -- 投稿の確認画面
+- register.php -- 投稿をDBに登録
+- detail.php -- 登録済みデータの編集
+- update.php -- 登録済みデータの編集したものをDBに登録。
+- - delete.php -- 削除機能
+- image.php -- 画像ファイルのバリデーション
+- login.php -- ログイン画面
+- login_act.php --　ログイン処理
+- logout.php -- ログアウト処理
+- hash.php -- ハッシュ化（今回結局まだ使ってません）
 
 ## ②工夫した点・こだわった点
 - 授業で教わったブログ画面を活用させてもらいました。
