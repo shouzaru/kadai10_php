@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+.file-up {
+    margin-bottom: 10px;
+}
+.btn {
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 18px;
+    background: #67c5ff;
+    border: 2px solid #67c5ff;
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.kbtn {
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 18px;
+    background: #ff9f67;
+    border: 2px solid #ff9f67;
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* img{
+    height: 300px;
+    display:block;
+  } */
+
+.logo{
+    width: 83px;
+    height: 80px;
+}
+
+.daiji{
+    font-family: 'Shippori Mincho', serif;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+
+body{
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
